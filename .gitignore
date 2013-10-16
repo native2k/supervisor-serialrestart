@@ -1,0 +1,5 @@
+/dist/
+/supervisord.log
+/supervisord.pid
+*.pyc
+*.py~
