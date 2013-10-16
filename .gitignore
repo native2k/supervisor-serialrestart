@@ -1,6 +1,11 @@
-/dist/
-/supervisord.log
-/supervisord.pid
 *.pyc
 *.py~
 *.html
+*.log
+
+.coverage
+/build
+/dist
+/supervisor_serialrestart.egg-info
+*.pid
+.coverage
