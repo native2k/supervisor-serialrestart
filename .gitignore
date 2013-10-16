@@ -3,3 +3,4 @@
 /supervisord.pid
 *.pyc
 *.py~
+*.html
