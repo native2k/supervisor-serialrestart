@@ -8,7 +8,7 @@ __versionstr__ = '.'.join(map(str, VERSION))
 
 long_description = ''
 try:
-    f = open(path.join(path.dirname(__file__), 'README.rst'))
+    f = open(path.join(path.dirname(__file__), 'README.md'))
     long_description = f.read().strip()
     f.close()
 except:
