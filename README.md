@@ -8,7 +8,7 @@ Adds ``serialrestart`` command to [Supervisor](http://supervisord.org/). This co
 simmilar to restart but if you have multiple services, it sometimes is
 preferable to restart them one after another to minimize downtime.
 
-It even  suppoorts wildcards.
+It even supports wildcards.
 
 Example
 -------
