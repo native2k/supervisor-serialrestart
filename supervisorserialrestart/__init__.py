@@ -3,4 +3,4 @@
 
 __author__ = 'Sven Richter'
 __email__ = 'native2k@gmail.com'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
