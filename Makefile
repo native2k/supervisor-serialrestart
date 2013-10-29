@@ -39,6 +39,7 @@ coverage:
 	# open htmlcov/index.html
 
 docs:
+	cat DESCRIPTION.rst USAGE.rst INSTALLATION.rst HISTORY.rst > README.rst
 	rm -f docs/supervisorserialrestart.rst
 	rm -f docs/modules.rst
 	sphinx-apidoc -o docs/ supervisorserialrestart
