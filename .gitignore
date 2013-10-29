@@ -4,6 +4,8 @@
 *.log
 
 .coverage
+.tox
+
 /build
 /dist
 /supervisor_serialrestart.egg-info
