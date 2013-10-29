@@ -34,7 +34,7 @@ setup(
     ],
     license="BSD",
     zip_safe=False,
-    keywords='supervisorserialrestart',
+    keywords='supervisorserialrestart supervisor-serialrestart supervisor serialrestart',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
