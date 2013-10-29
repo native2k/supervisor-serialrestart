@@ -1,7 +1,7 @@
-.. include:: ./DESCRIPTION.rst
+.. include:: DESCRIPTION.rst
 
-.. include:: ./USAGE.rst
+.. include:: USAGE.rst
 
-.. include:: ./INSTALLATION.rst
+.. include:: INSTALLATION.rst
 
-.. include:: ./HISTORY.rst
+.. include:: HISTORY.rst
