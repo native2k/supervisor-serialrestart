@@ -9,7 +9,7 @@ Supervisor serialrestart
         :target: https://crate.io/packages/supervisor-serialrestart?version=latest
 
 
-Adds ``serialrestart`` command to [Supervisor](http://supervisord.org/). This command works
+Adds ``serialrestart`` command to Supervisor_. This command works
 simmilar to restart but if you have multiple services, it sometimes is
 preferable to restart them one after another to minimize downtime.
 
@@ -18,7 +18,7 @@ It even supports wildcards.
 * Free software: BSD license
 * Documentation: http://supervisor-serialrestart.rtfd.org.
 
-Usage
+.. _Supervisor: http://supervisord.org/Usage
 -----
 
 ::
@@ -73,7 +73,7 @@ History
 0.1.1 (2013-10-29)
 ++++++++++++++++++
 
-* just fixxed documentation/project structure
+* just fixed documentation/project structure
 
 0.1.0 (2013-10-16)
 ++++++++++++++++++
