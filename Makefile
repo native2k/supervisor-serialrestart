@@ -47,7 +47,7 @@ docs:
 	$(MAKE) -C docs html
 	# open docs/_build/html/index.html
 
-release: clean
+release: clean docs
 	python setup.py sdist upload
 
 sdist: clean
