@@ -1,10 +1,9 @@
-import re
-from nose import tools
 from os.path import dirname, join
 from subprocess import PIPE, Popen
 from unittest import TestCase
 
 CONFIG_FILE = join(dirname(__file__), 'supervisord.conf')
+
 
 class TestPlugin(TestCase):
 
@@ -22,7 +21,6 @@ class TestPlugin(TestCase):
         self.assertEqual(lines[0],
                          'Error: serialrestart requires a process name')
         assert(len(lines) == 10)
-
 
     def test_serialrestart_fail(self):
         result = self._supervisorctl('serialrestart blub')
@@ -57,18 +55,3 @@ class TestPlugin(TestCase):
         result = self._supervisorctl('serialrestart baz:b*')
         self.assertEqual(result,
                          'baz:bar: stopped\nbaz:bar: started\n')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

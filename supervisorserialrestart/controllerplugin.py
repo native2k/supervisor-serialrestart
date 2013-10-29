@@ -2,6 +2,7 @@
 from supervisor.supervisorctl import ControllerPluginBase
 import fnmatch
 
+
 class SerialRestartControllerPlugin(ControllerPluginBase):
     name = 'serialrestart'
 
@@ -35,7 +36,7 @@ class SerialRestartControllerPlugin(ControllerPluginBase):
         if 'all' in names:
             processes = allprocesses
         else:
-            for name  in names:
+            for name in names:
                 match = [p for p in allprocesses if fnmatch.fnmatch(p, name)]
                 if match:
                     processes = processes.union(match)
@@ -45,8 +46,6 @@ class SerialRestartControllerPlugin(ControllerPluginBase):
         # do restart for each of them
         for process in processes:
             self.ctl.onecmd('restart %s' % process)
-
-
 
     def help_serialrestart(self):
         self.ctl.output("serialrestart <name>\t\tRestart a process")
