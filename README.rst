@@ -16,8 +16,7 @@ preferable to restart them one after another to minimize downtime.
 It even supports wildcards.
 
 * Free software: BSD license
-
-.. * Documentation: http://supervisorserialrestart.rtfd.org.
+* Documentation: http://supervisor-serialrestart.rtfd.org.
 
 Usage
 -----
