@@ -2,4 +2,7 @@ include AUTHORS.rst
 include CONTRIBUTING.rst
 include HISTORY.rst
 include LICENSE
+include DESCRIPTION.rst
+include INSTALLATION.rst
+include USAGE.rst
 include README.rst
