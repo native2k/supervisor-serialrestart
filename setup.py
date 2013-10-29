@@ -18,7 +18,7 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='supervisorserialrestart',
+    name='supervisor-serialrestart',
     version='0.1.0',
     description='Adds serialrestart command to Supervisor.',
     long_description=readme + '\n\n' + history,
