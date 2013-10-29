@@ -15,13 +15,13 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 readme = open('README.rst').read()
-history = open('HISTORY.rst').read().replace('.. :changelog:', '')
+#history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
     name='supervisor-serialrestart',
     version='0.1.1',
     description='Adds serialrestart command to Supervisor.',
-    long_description=readme + '\n\n' + history,
+    long_description=readme
     author='Sven Richter',
     author_email='native2k@gmail.com',
     url='https://github.com/native2k/supervisor-serialrestart',
