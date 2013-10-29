@@ -10,7 +10,6 @@ from os import path
 import nose
 
 
-
 def run_all(argv=None):
 
     if argv is None:

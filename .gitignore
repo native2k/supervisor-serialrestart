@@ -11,3 +11,7 @@
 /supervisor_serialrestart.egg-info
 *.pid
 .coverage
+/docs/supervisorserialrestart.rst
+/docs/modules.rst
+/docs/_build
+/htmlcov
