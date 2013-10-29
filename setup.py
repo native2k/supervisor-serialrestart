@@ -24,7 +24,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author='Sven Richter',
     author_email='native2k@gmail.com',
-    url='https://github.com/native2k/supervisorserialrestart',
+    url='https://github.com/native2k/supervisor-serialrestart',
     packages=[
         'supervisorserialrestart',
     ],
